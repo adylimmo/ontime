@@ -2,6 +2,12 @@
 
 A new Flutter project.
 
+```
+Flutter 3.13.5
+flutter run
+```
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
