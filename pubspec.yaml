@@ -41,6 +41,10 @@ dependencies:
   google_fonts: ^5.0.0
 
   feather_icons: ^1.2.0
+  shared_preferences: ^2.2.1
+  http: ^1.1.0
+  syncfusion_flutter_maps: ^23.1.36
+  location: ^5.0.3
 
 dev_dependencies:
   flutter_test:
