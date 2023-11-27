@@ -51,8 +51,8 @@ class _LoginPageState extends State<LoginPage> {
     LoginResponseModel? loginResponseModel;
     Map<String, String> body = {"email": email, "password": password};
     var response = await myHttp.post(
-        Uri.parse('https://absen-web.vercel.app/public/api/login'),
-        // Uri.parse('http://127.0.0.1:8000/api/login'),
+        //Uri.parse('https://golang-api-tes-production.up.railway.app/api/auth/login'),
+         Uri.parse('https://absen-web.vercel.app/public/api/login'),
         body: body);
     if (response.statusCode == 401) {
       ScaffoldMessenger.of(context)
